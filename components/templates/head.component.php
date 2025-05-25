@@ -1,19 +1,10 @@
-<?php
-function head($pageTitle)
-{
-    ?>
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Owen's Cloud</title>
+  <link rel="stylesheet" href="/assets/css/example.css">
+  <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-        <head>
-            <meta charset="utf-8">
-            <title><?= htmlEscape($pageTitle ?? 'My Shop') ?></title>
-
-            <!-- Libraries -->
-            <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-        </head>
-
-        <body>
-            <?php
-}
-?>
